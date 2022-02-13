@@ -28,7 +28,10 @@ function formStylization(){
 		$('select:not(".without-styles")').selectpicker();
 	}
 }
-
+function playMusic(){
+	var music = new Audio('musicfile.mp3');
+	music.play();
+	}
 //Main Menu
 function mainMenu(){
 	var menu   = $('#main-menu'),

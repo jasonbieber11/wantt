@@ -1567,10 +1567,14 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
+  color:skyblue;
+  font-size:25px;
 }
 @media (min-width: 768px) {
   .lead {
     font-size: 21px;
+    color:skyblue;
+    font-size:25px;
   }
 }
 
